@@ -11,7 +11,10 @@ Glossário de comandos
 cat
  Este comando envia o conteúdo de um ou mais arquivos para a saída padrão ou para um outro arquivo.
  Exemplo: Podemos usar o comando cat para exibir os arquivos na tela. Por exemplo,
-cat teste1 teste2
+cat > teste1- Serve para criar arquivo teste1 e escrever algo nele
+cat teste1- mostra o que há no arquivo.
+cat teste2 > Cria o arquivo teste2
+cat teste1 >> teste2- O que há em teste1 é escrito em teste2.
 Mostra na tela o conteúdo dos arquivos teste1 e teste2.
 
 
@@ -122,6 +125,7 @@ who
 
 whoami
   Mostra o nome do usuário.
+  
 
 
     write
