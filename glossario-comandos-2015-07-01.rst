@@ -25,11 +25,24 @@ Exemplo: cd /home/baixaki/Desktop – Acessa a pasta correspondente à área de 
 
 
 cowsay
-  Descrição do comando
+ Cowsay é um programinha onde uma vaca desenhada em ascii fala uma frase escolhida por você.
+ Exemplo:
+ Depois de instalado, pode chamar o programa desta forma:
+ cowsay MundoLunga.com
+ Outro exemplo:
+cowsay -f tux seutexto
+A sintaxe é:
+cowsay -f [nomedodesenho] [oquequerfalar]
 
 
 echo
-  Descrição do comando
+  Mostra uma mensagem que você escreveu no termial do computador.
+  Exemplo:
+  echo "MENSAGEM"
+  MENSAGEM.
+   Ou, aparece o nome do usuário:
+   echo $USER
+   
 
 
 env
@@ -41,7 +54,7 @@ exit
 
 
 help
-  Descrição do comando
+Mostra como utilizar os comnados.
 
 
 HISTTIMEFORMAT="%d/%m/%y
