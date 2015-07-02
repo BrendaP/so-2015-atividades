@@ -59,7 +59,9 @@ Mostra como utilizar os comnados.
 
 HISTTIMEFORMAT="%d/%m/%y
   List os comandos que você digitou junto com a data e a hora.
-  Exemplo:
+  Exemplo:  
+  HISTTIMEFORMAT="%d/%m/%y %T "
+  history.
 
 
 hostname
