@@ -46,7 +46,7 @@ echo
 
 
 env
-  Descrição do comando
+  Exibi as variáveis de ambiente.
 
 
 exit
@@ -58,7 +58,8 @@ Mostra como utilizar os comnados.
 
 
 HISTTIMEFORMAT="%d/%m/%y
-  Descrição do comando
+  List os comandos que você digitou junto com a data e a hora.
+  Exemplo:
 
 
 hostname
@@ -105,7 +106,10 @@ set
 
 
 tree
-  Descrição do comando
+  Este utilitário lista o conteúdo de um diretório usando o formato de árvore. Ele tem a mesma função do comando ls. A diferença consiste na maneira como as informações são exibidas.
+  Exemplo:
+tree /etc
+exibe arquivos e diretórios que estã abaixo do diretório /etc.
 
 
 tty
@@ -113,7 +117,7 @@ tty
 
 
 vim
-  Descrição do comando
+  Editor de texto.
 
 
 wait
