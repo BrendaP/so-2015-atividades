@@ -111,7 +111,7 @@ Exemplo: mkdir DIRETORIO – A pasta DIRETORIO foi criada no local onde o usuár
 
 mv
 O comando mv pode ser usado para mover ou renomear arquivos.
-Exemplo:
+Exemplo: mv teste01.txt (arquivo que você quer mover) /pasta01( pasta destino)
 
 
 nome="fulano
@@ -153,6 +153,7 @@ wait
 
 
 wall
+
 Escreve para mais de um dos utilizadores que estejam logados no momento.
 EXEMPLO: wall
 Olá, pessoas! Tudo bem?
