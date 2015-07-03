@@ -68,11 +68,12 @@ env
 
 
 exit
-  Descrição do comando
+  Fecha o programa. Primeiro sai do diretório, depois do terminal.
+  (fecha mesmo, eu testei, foi uma morte horrível).
 
 
 help
-Mostra como utilizar os comnados.
+Mostra como utilizar os comandos.
 
 
 HISTTIMEFORMAT="%d/%m/%y
@@ -83,7 +84,7 @@ HISTTIMEFORMAT="%d/%m/%y
 
 
 hostname
-  Exibe o nome da máquina
+  Exibe o nome da máquina.
 
 
 ifconfig
@@ -92,11 +93,11 @@ ifconfig
 
 
 last
-  Descrição do comando
+  Este comando exibe todas as informações referentes a entrada (login) e saída (logout) de usuários do sistema.
 
 
-lastb
-  Descrição do comando
+last -d
+   Exibe o número de IP da máquina remota onde foi efetuado o login.
 
 
 ls
@@ -130,18 +131,17 @@ Exemplo: Se o usuário baixaki digitar cd ~/ e em seguida digitar pwd, o retorno
 
 
 set
-  Descrição do comando
+  Define variáveis da sessão, ou seja, da shell, na C shell, na bash ou na ksh.
 
 
 tree
   Este utilitário lista o conteúdo de um diretório usando o formato de árvore. Ele tem a mesma função do comando ls. A diferença consiste na maneira como as informações são exibidas.
   Exemplo:
-tree /etc
-exibe arquivos e diretórios que estã abaixo do diretório /etc.
+tree /etc -Exibe arquivos e diretórios que estão abaixo do diretório /etc.
 
 
 tty
-  Descrição do comando
+  Este comando mostra o nome do arquivo conectado à entrada padrão.
 
 
 vim
@@ -149,11 +149,14 @@ vim
 
 
 wait
-  Descrição do comando
+  Espera que um determinado comando seja executado pra depois executar o  os outros
 
 
 wall
-  Descrição do comando
+Escreve para mais de um dos utilizadores que estejam logados no momento.
+EXEMPLO: wall
+Olá, pessoas! Tudo bem?
+CTRL + D
 
 
 which
@@ -164,14 +167,14 @@ which
 
 
 while
-  
-  
-  Exemplo: 
   Permite que você faça uma condição, e enquanto ela for verdadeira, ele executará o bloco de comandos.
+  
+  Sintaxe:
   while comando_de_teste
   do
   bloco de comandos
   done
+ Exemplo:
  var=100
  while[$var -gt 0]
  do
@@ -185,8 +188,6 @@ who
 
 whoami
   Mostra o nome do usuário.
-  
-
 
     write
         Escreve mensagem para alguém que está na mesma rede que você.
