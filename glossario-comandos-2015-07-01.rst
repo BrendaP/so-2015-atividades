@@ -114,8 +114,11 @@ Exemplo:
 
 
 nome="fulano
-  Descrição do comando
-
+  Cria a variável nome, onde você coloca o seu valor.
+  Exemplo:
+  nome="Mis sericordia"
+  echo $nome
+  Mis sericordia.
 
 passswd
   Mudar a senha do seu usuário.
@@ -154,12 +157,27 @@ wall
 
 
 which
-  Descrição do comando
+  Localização do comando.
+  Exemplo:
+  which who
+  /usr/bin/who- Diretório onde se encontra o who.
 
 
 while
-  Descrição do comando
-
+  
+  
+  Exemplo: 
+  Permite que você faça uma condição, e enquanto ela for verdadeira, ele executará o bloco de comandos.
+  while comando_de_teste
+  do
+  bloco de comandos
+  done
+ var=100
+ while[$var -gt 0]
+ do
+ echo $var
+ var=$[var-1]
+done
 
 who
  Quem está ligado a rede.
