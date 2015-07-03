@@ -22,6 +22,24 @@ cd
 O comando “cd” serve para acessar e mudar de diretório corrente. Ele é utilizado para a navegação entre as pastas do computador.
 Exemplo: cd /home/baixaki/Desktop – Acessa a pasta correspondente à área de trabalho do usuário baixaki.
 
+cp
+copia arquivos e diretórios.
+Exemplo: 
+ Copiar o arquivo passwd do diretório /etcpara o diretório /home/fabio/.
+$ cp  /etc/passwd   /home/fabio/
+Se o diretório de trabalho atual já for o /home/fabio, podemos também usar o ponto (.) para indicá-lo como local de destino, como a seguir:
+$ cp  /etc/passwd   .
+2. Copiar o arquivo passwd do diretório /etc/ para o diretório /home/fabio/ renomeando a cópia como usuarios.txt:
+$ cp  /etc/passwd   /home/fabio/usuarios.txt
+3. Copiar todos os arquivos cujo nome se inicia com a letra l do diretório /lib/ para o diretório atual:
+$ cp /lib/l* .
+4. Criar um link simbólico no diretório atual para o arquivo /etc/group:
+$ cp  -s  /etc/group .
+5. Fazer uma cópia de backup de um arquivo no mesmo diretório, com outro nome (muito útil quando precisamos alterar arquivos de configuração do sistema):
+$ cp  passwd  passwd.bkp
+6. Copiar o diretório /home/fabio/Documentos e todo o seu conteúdo recursivamente para o diretório /home/fabio/backup/:
+$ cp /home/fabio/Documentos  /home/fabio/backup/
+
 
 
 cowsay
@@ -69,7 +87,8 @@ hostname
 
 
 ifconfig
-  Descrição do comando
+  Configurar e posteriormente manter as interfaces da rede.
+  Exemplo: ifconfig -a: exibe informações sobre todas as interfaces de rede (ativadas e desativadas).
 
 
 last
@@ -89,13 +108,17 @@ mkdir
 Este comando cria diretórios.
 Exemplo: mkdir DIRETORIO – A pasta DIRETORIO foi criada no local onde o usuário se encontrava.
 
+mv
+O comando mv pode ser usado para mover ou renomear arquivos.
+Exemplo:
+
 
 nome="fulano
   Descrição do comando
 
 
 passswd
-  Descrição do comando
+  Mudar a senha do seu usuário.
 
 
 pwd
@@ -139,7 +162,7 @@ while
 
 
 who
-  Descrição do comando
+ Quem está ligado a rede.
 
 
 whoami
@@ -148,5 +171,9 @@ whoami
 
 
     write
-        Descrição do comando
+        Escreve mensagem para alguém que está na mesma rede que você.
+        Exemplo:
+         write antunes
+         olaa!
+         
 
